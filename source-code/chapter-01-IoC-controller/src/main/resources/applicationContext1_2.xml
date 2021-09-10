@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="person" class="com.ermao.chapter1_2.Person" name="person2 person3 person4,person5;person6">
+        <property name="name" value="xml"/>
+        <property name="age" value="1"/>
+    </bean>
+
+
+
+</beans>
